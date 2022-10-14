@@ -1,0 +1,20 @@
+package com.sunny.common;
+
+import javax.annotation.Resource;
+
+/**
+ * @ClassName ThreadPoolTaskConfigAoConfigTest
+ * @Author 张普裕
+ * @Version 1.0.0
+ * @Description TODO
+ * @CreateTime 2022年10月14日 14:47:00
+ */
+public class ThreadPoolTaskConfigAoConfigTest {
+    @Resource
+    private ThreadPoolTaskConfigAoConfig threadPoolTaskConfigAoConfig;
+
+    public void test(){
+        // 异步方法调用
+        threadPoolTaskConfigAoConfig.test();
+    }
+}
