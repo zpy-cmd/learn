@@ -1,0 +1,23 @@
+package com.sunny.common;
+
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Component;
+
+/**
+ * @ClassName ThreadPoolTaskConfigTestAoConfig
+ * @Author 张普裕
+ * @Version 1.0.0
+ * @Description TODO
+ * @CreateTime 2022年10月14日 14:45:00
+ */
+@Component
+public class ThreadPoolTaskConfigAoConfig {
+
+    /**
+     * 异步方法
+     */
+    @Async
+    public void test(){
+        // TODO
+    }
+}
