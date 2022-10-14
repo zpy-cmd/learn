@@ -1,0 +1,22 @@
+package com.sunny.common;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Component;
+
+/**
+ * @ClassName ThreadPoolTaskConfigTest
+ * @Author 张普裕
+ * @Version 1.0.0
+ * @Description ThreadPoolTaskConfig测试类
+ * @CreateTime 2022年10月14日 14:40:00
+ */
+@Slf4j
+@Component
+public class ThreadPoolTaskConfigTest {
+
+    @Async("taskExecutor")
+    public void threadPoolTaskConfigTest(){
+        // TODO
+    }
+}
